@@ -1,0 +1,460 @@
+/*reset*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address,big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul,li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption,footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure,footer,header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}ol, ul{list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: "";content: none;}table {border-collapse: collapse;border-spacing: 0;}
+
+
+/*mainStyle*/
+
+@import url(http://db.onlinewebfonts.com/c/70a3de2353d5710a06e0ea3bf121744c?family=Amplify+Personal+Use+Only);
+@import url(http://db.onlinewebfonts.com/c/6e4a9679e65cc320746c3e5d48e51f28?family=Raleway);
+
+
+body{
+    margin: 0 auto
+}
+
+.billboard {
+    background: url(images/Layer-8-copy.png);
+    width: 850px;
+    height: 450px;
+    margin: auto;
+    color: #ffffff;
+    
+}
+.navBar{
+    width: 600px;
+    height: 28px;
+    padding: 48px;
+    margin: auto;
+}
+
+.navBar span{
+    font-size: 48px;
+    font-family: "Amplify Personal Use Only";
+    float: left;
+}
+
+.navBar .menu {
+    width: 264px;
+    height: 11px;
+    float: right;
+    padding-top: 15px;
+}
+.navBar .menu .menuItems{
+    padding: 0 5px;
+    display: inline;
+}
+
+.navBar .menu .menuItems a{
+    font-family: 'Raleway';
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.billboard .titleHeader {
+    width: 550px;
+    height: 25px;
+    font-family: 'Raleway';
+    font-size: 36px;
+    display: block;
+    margin:100px auto;
+    font-weight: 600;
+    
+}
+
+.billboard .iconHeader{
+    display: block;
+    margin: auto;
+    width: 24px;
+    position: relative;
+    top:40px;
+    
+    
+}
+
+/*servives block 2*/
+.servises{
+    width: 700px;
+    height: 400px;
+    margin: 100px auto 0;
+}
+
+.servises > div {
+    display: inline-block;
+    width: 230px;
+    margin: auto;
+}
+
+.servises > div img{
+    display: block;
+    margin:20px auto;
+    
+}
+
+.servises > div h2 {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 600;
+    color: #555555;
+    text-align: center;
+    margin: 30px 10px
+}
+
+.servises > div p{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #8a8a8a;
+    text-align: center;
+    padding:5px 25px;
+    
+}
+
+.testimonials{
+    font-family: Raleway;
+    color: #8a8a8a;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 28px;
+    width: 850px;
+    height: 400px;
+    margin: auto;
+    padding: 75px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.testimonials img{
+    display: block;
+    width: 44px;
+    margin: auto;
+}
+
+.testimonials h1{
+    padding: 25px 0;
+    width: 597px;
+    margin: auto
+    
+}
+
+.features {
+    width: 850px;
+    height: 600px;
+    margin: auto;
+    font-family: Raleway;
+    background-color: #f5f5f5;
+    padding: 100px 0 50px;
+}
+
+.features > div {
+    height: 300px;
+    width:600px;
+    margin: auto;
+}
+
+.features > div img{
+    width: 280px;
+    height: 240px;
+    box-sizing: border-box;
+}
+
+.features > div div  {
+    display: inline;
+    float: right;
+    width: 278px;
+    height:300px;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+
+.features > div div h1{
+    font-size: 22px;
+    color:#555555;
+    font-weight: 600;
+}
+
+.features > div div p{
+    padding: 42px 0 0;
+    line-height: 28px;
+    color: #8a8a8a;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.features > div:last-child div  {
+    display: inline;
+    float: left;
+    width: 278px;
+    height:300px;
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+.features > div:last-child img{
+    width: 280px;
+    height: 240px;
+    box-sizing: border-box;
+    float: right;
+}
+
+.timeLine span{
+    display: block;
+    text-align: center;
+    font: 600 22px / 20px Raleway;
+    padding: 101px 0 50px 0;
+}
+
+.timeline{
+    margin:auto;
+    width:850px;
+    height: 741px;    
+    position:relative;
+    z-index:0;
+    background-color: #FFFFFF;
+}
+.timeline ul li::before{
+    content:' ';
+    height:741px;
+    width:1px;
+    position:absolute;
+    left:50%;
+    top:0;
+    z-index:2;
+    background-color: #e6e6e6;;
+}
+.timeline ul{
+    list-style:none;
+    margin:10px auto;
+    width:850px;
+    height: 741px;    
+    background:white;
+}
+.timeline ul li {
+    height:100px;        
+    padding:10px 0;
+}
+.timeline ul li span{
+    display:inline-block;
+    margin:30px 50px;
+    position:relative;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555555;    
+} 
+
+.ball{
+    background:#F28044;
+    border-radius:50%;
+    border:4px white solid;
+    width:18px;
+    height:18px;
+    position: relative;
+    top:47px;
+    left:-42px;        
+    z-index:3;
+}
+.lineLeft{
+    display:block;
+    background:#F28044;
+    width:10px;
+    height:2px;
+    position:relative;
+    top:-22px;
+    left:-60px;
+    z-index:4;
+}
+.lineRight{
+    display:block;
+    background:#F28044;
+    width:10px;
+    height:2px;
+    position:relative;
+    top:-22px;
+    left:-32px;
+    z-index:4;
+}
+.leftItem{
+    position:relative;
+    left:42px;
+    width:300px;
+    text-align:right;
+}
+.rightItem{
+    position:relative;
+    top:-76px;    
+    left:410px;
+    width:300px;
+    text-align:left;
+}
+
+
+.timelineTitle{
+    background-color: #FFFFFF;
+    width: 160px;
+    margin: 80px;
+    font-family: Raleway;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: #555555;
+    margin:25px auto;
+    padding:45px 5px;
+    position: relative;
+    z-index: 4;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e6e6e6;
+    
+        
+}
+
+.blogPosts{
+    width: 850px;
+    margin: auto;
+    
+}
+.blogPosts .blogWrapper {
+    width: 650px;
+    margin: auto;
+}
+.blogPosts h1{
+    width: 290px;
+    margin:70px auto;
+    font: 600 22px / 20px Raleway;
+    color: #555555;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+}
+
+.blogPosts .blogWrapper div{
+    width: 280px;
+    height: 600px;
+    display: inline-block;
+    margin:20px 20px;
+    font-family: Raleway;    
+}
+.blogPosts > .blogWrapper  div span{
+    position: relative;
+}
+.blogPosts > .blogWrapper  div span img:first-of-type {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    z-index: 0;
+}
+.blogPosts >.blogWrapper  div span img:last-of-type {
+    position: absolute;
+    bottom:263px;
+    right: 1px;
+    z-index: 3;
+    width: 21px;
+    height: 21px;
+    
+}
+.blogPosts >.blogWrapper  div h2{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 25px auto;
+}
+.blogPosts >.blogWrapper  div p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #8a8a8a;
+}
+
+.footer{
+    width: 850px;
+    height: 107px;
+    margin: auto;
+    background-color: #f9823a;
+    position: relative;
+}
+.footer span{
+    position: absolute;
+    top:39px;
+    left:125px;
+}
+.footer span * {
+    display: inline;
+}
+
+.footer span h3{
+    color: #de6d28;
+    font-family: "Amplify Personal Use Only";
+    font-size: 50px;
+    font-weight: 400;
+    padding-right: 19px;
+}
+
+.footer span p{
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footer img{
+    position: absolute;
+    top:46px;
+    right:125px;
+}
+
+.footer ul{
+    position: absolute;
+    top: 46px;
+    right: 125px;
+    
+}
+.footer ul li {
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    margin: 0 5px;
+}
+
+.footer ul li.facebook{
+    background: url('images/F----L----G----D.png') 0 0;
+}
+.footer ul li.twitter{
+    background: url('images/F----L----G----D.png') -35px 0;
+}
+
+.footer ul li.google{
+    background: url('images/F----L----G----D.png') -75px 0;
+}
+
+.footer ul li.web{
+    background: url('images/F----L----G----D.png') -110px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
